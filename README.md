@@ -3,7 +3,7 @@ I created a crypto index based on financial, social media and development metric
 
 ## Goal
 
-The goal of this project was to create an index where I don't just take into consideration the financial metrics but also social media and development.
+The goal of this project was to create an index where I don't just take into consideration the financial metrics, but also social media and development.
 
 The *index_selection* code gave me the 10 constituents of the index for the quarter. The *index_calculation* code computes the index value every day.
 
