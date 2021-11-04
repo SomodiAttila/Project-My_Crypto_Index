@@ -5,11 +5,14 @@ I created a crypto index based on financial, social media and development metric
 
 The goal of this project was to create an index where I don't just take into consideration the financial metrics but also social media and development.
 
+The *index_selection* code gave me the 10 constituents of the index for the quarter. The *index_calculation* code computes the index value every day.
+
 ## Index methodology
 
 - I used the 90 day average of: **financial metrics** (market cap, volume) and **community metrics** (social media, development) to select the 10 cryptos of the index.
 - *Social media metrics*: total of twitter, reddit, telegram, bitcointalk (could have also used sentiment analysis)
 - *Development metrics*: tracking the number of GitHub events that the project organization generated (could have also used web traffic, number of developers, etc.)
+- The 4 metrics (market cap, volume, social media, github activity) are *normalized and have equal influence* on the selection process.
 - The index only includes layer 1 solutions.
 - Used the *Fisher price index* for calculating the index value.
 - Since it is a draft project for the index, it does not include any divisor tuning or more advanced data from more expensive API packages.
